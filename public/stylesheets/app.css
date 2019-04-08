@@ -1,0 +1,2837 @@
+.auth {
+  height: 100vh;
+}
+
+.auth > div {
+  width: 90%;
+  margin: auto;
+}
+
+.auth .header {
+  padding: 30px 0px;
+}
+
+.auth .header .link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.auth .header .link a {
+  letter-spacing: 0.8px;
+}
+
+.auth .header .logo img {
+  width: 60px;
+}
+
+.auth form {
+  /* padding: 30px 0px; */
+  width: 100%;
+}
+
+.auth form label {
+  letter-spacing: 1px;
+  font-size: 13px;
+  /* margin-bottom: 1.2rem; */
+}
+
+.auth form h6 {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.auth .resend {
+  display: block;
+  padding: 0px 0px 25px 0px;
+  letter-spacing: 1px;
+}
+
+.auth .resend p {
+  text-align: left;
+  margin: 0px;
+  font-size: 12px;
+}
+
+.auth .resend a {
+  text-decoration: underline;
+}
+
+.auth form input,
+.auth form select {
+  width: 100%;
+}
+
+.auth form button {
+  border: 1px solid;
+  color: white;
+}
+.pay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.pay .header .headermenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  align-items: center;
+  margin: 30px 0px 10px;
+}
+
+.pay .header h5 {
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+.pay .header a {
+  width: 100%;
+}
+
+.pay .header hr {
+  margin: 10px 0 0;
+  width: 100%;
+  /* border-top: 2px solid rgba(0, 0, 0, 0.1); */
+}
+
+.pay .header li {
+  letter-spacing: 1px;
+  margin: 0;
+  text-align: center;
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pay .header span {
+  /* width: 4px;
+  height: 4px;
+  background: transparent;
+  display: block;
+  margin: 8px 0px;
+  border-radius: 50%; */
+  padding: 5px 10px;
+  font-size: 28px;
+}
+
+.pay > div {
+  width: 87%;
+  margin: auto;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.content .me {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content img,
+.content canvas {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.me > div {
+  text-align: center;
+}
+
+.content h5 {
+  font-size: 17px;
+  letter-spacing: 1px;
+  padding: 12px 0;
+  margin: 0;
+}
+
+.content p {
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.content .list:empty::after {
+  content: "Contacts appear here :)";
+}
+
+.content .userlink {
+  display: block;
+  /* margin: 10px 0px; */
+  font-size: 10px;
+  margin: 17px 0px;
+}
+
+.content .share {
+  padding: 16px 35px;
+  border-radius: 56px;
+  background: rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: white;
+}
+
+.content .amount {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* 
+.content .amount span {
+  width: 24px;
+  display: block;
+  height: 24px;
+  position: absolute;
+  right: 0;
+  top: 7px;
+}  */
+
+.content input[type="text"] {
+  width: 100%;
+  font-size: 19px;
+  font-weight: 300;
+  height: auto;
+  margin: 0%;
+  text-align: center;
+}
+
+.content div input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 1; /* Firefox */
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.content .transfer h5 {
+  margin: 7px 0px;
+  font-size: 20px;
+}
+
+.content .title {
+  padding: 15px 0px;
+}
+
+.content .title h6 {
+  color: inherit;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.content a:first-child .item {
+  border: 0px;
+}
+
+.content a > div,
+.content > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 5px;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+.content div li {
+  margin: 0px 0px 9px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-weight: 300;
+  color: black;
+}
+
+#amount {
+  text-align: center;
+  margin: 80px 0;
+  letter-spacing: 1px;
+}
+
+#amount input {
+  font-size: 45px;
+  height: auto;
+  text-align: center;
+  border-bottom: 0px;
+  /* font-weight: 300; */
+  margin: 0px;
+}
+
+.paypage {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .paypage .header {
+  margin: 25px auto;
+} */
+
+.page.paypage form {
+  margin: 0px auto;
+  width: 80%;
+}
+
+.page.paypage select {
+  text-align-last: center;
+}
+
+.page.paypage button {
+  width: 100%;
+}
+
+.paypage p {
+  font-size: 13px;
+  /* font-weight: 300; */
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* 
+==================================
+Me
+==================================
+*/
+
+.me .desc {
+  width: 90%;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.me a {
+  display: inline-block;
+}
+
+/* 
+=================================
+Contact
+=================================
+*/
+
+.pay-overlay {
+  display: flex;
+}
+
+.pay-overlay .content {
+  margin: auto;
+  height: auto;
+}
+
+.pay-overlay hr {
+  margin: 0px;
+  width: 13%;
+  border-top: 3px solid #4e4848;
+  border-radius: 3px;
+}
+
+.pay-overlay .btns {
+  display: flex;
+  justify-items: center;
+  /* padding: 20px 0px; */
+}
+
+.pay-overlay .btns .middle {
+  width: 3%;
+  background: transparent;
+}
+
+.pay-overlay .btns li {
+  display: inline-block;
+  width: 35%;
+  margin: 0px;
+  padding: 15px 0px;
+  text-align: center;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  /* font-weight: 400; */
+  /* font-family: "SF Thin"; */
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  /* margin: 0px 3px; */
+  color: rgb(72, 72, 72);
+  background: rgba(0, 0, 0, 0.05);
+  border: 0px;
+  transition: 1s;
+  font-size: 13px;
+}
+
+.pay-overlay .btns span {
+  display: none;
+}
+
+/* .pay-overlay .active  */
+
+.pay-overlay .btns .active {
+  background: #d05f73;
+  color: white;
+  width: 65%;
+}
+
+.pay-overlay .btns .active span {
+  display: inline-block;
+  background: transparent;
+}
+
+.pay-overlay .options {
+  /* padding: 15px 0px; */
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.pay-overlay .options li {
+  margin: 0px;
+  padding: 0px 0px 0px 45px;
+  /* border-bottom: 1px solid #efefef; */
+  letter-spacing: 1px;
+  /* font-weight: 600; */
+  color: rgb(72, 72, 72);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex: 1;
+  justify-content: space-between;
+}
+
+.pay-overlay .options hr {
+  width: 75%;
+  margin: auto;
+  border-top: 1px solid #efefef;
+}
+
+.pay-overlay .options svg {
+  padding-right: 20px;
+}
+
+.pay-overlay .options li:last-child {
+  border: 0px;
+}
+
+.contact .contact .fields {
+  border-bottom: 0;
+  width: 100%;
+  box-shadow: 0px 7px 8px -6px rgba(0, 0, 0, 0.15);
+  padding: 10px 0px;
+}
+
+/* .contact .content .field:last-child {
+  border-bottom: 0px;
+} */
+
+.contact .fields label {
+  display: flex;
+  align-items: center;
+  padding: 18px 30px;
+  margin: 0px;
+  justify-content: space-between;
+}
+
+.contact .fields input {
+  border-bottom: 0px;
+  /* font-weight: 500; */
+  letter-spacing: 1px;
+  margin: 0px;
+  font-size: 15px;
+  width: 75%;
+  padding-left: 0px;
+}
+
+.contact .fields span {
+  font-size: 13px;
+}
+
+.contact .fields input:focus {
+  border: 0px;
+}
+
+.contact .fields input::placeholder {
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact .content a {
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 3px;
+  background: #008489;
+  font-size: 14px;
+  /* font-weight: 500; */
+  letter-spacing: 1px;
+  /* font-family: "SF Thin"; */
+  color: white;
+  margin: 0px 1%;
+}
+
+.contact hr {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  margin: 5px 15px;
+}
+
+.contact .content .btns {
+  margin: 40px 0px;
+  width: 100%;
+}
+
+.contact .options {
+  width: 100%;
+}
+
+.contact .options li {
+  padding: 20px 10px;
+  margin: 0px;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.contact .done {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 20px 0px;
+  background: #008489;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  letter-spacing: 1px;
+  /* font-family: "SF Thin"; */
+  /* font-weight: 500; */
+}
+
+.pay-overlay .select {
+  width: 40%;
+}
+
+.pay-overlay .select li {
+  margin: 0px;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  background: #fbfbfb;
+  font-size: 17px;
+  font-family: "Open sans";
+}
+
+.pay-overlay .select .active {
+  background: #d07676;
+  color: white;
+}
+
+/* 
+======================================
+DIALOGS
+======================================
+*/
+
+.overlay.pay-dialog {
+  height: 100%;
+  background: transparent;
+}
+
+.pay-dialog > div {
+  height: 50%;
+}
+
+.pay-dialog .cancel {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.pay-dialog .content {
+  background: white;
+  /* box-shadow: 0px -5px 16px -7px rgba(0, 0, 0, 0.15); */
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex: 6;
+}
+
+.pay-dialog .content > div {
+  height: 100%;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pay-dialog .content .options {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* box-shadow: 8px -2px 11px -9px rgba(0, 0, 0, 0.15); */
+}
+
+.pay-dialog .options li {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin: 0px;
+  font-size: 15px;
+  /* font-family: "Open sans"; */
+  background: #f7f7f7;
+  color: #3c3c3c;
+  transition: 1s;
+  font-weight: 400;
+}
+
+.pay-dialog .options .active {
+  background: #d07676;
+  color: white;
+  flex: 3;
+}
+
+.pay-dialog .content .via {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.pay-dialog .content .via li {
+  flex-basis: 25%;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  font-size: 12px;
+}
+
+.pay-dialog .content .via li:hover {
+  background: #008489;
+  color: #f7f7f7;
+}
+
+.pay-dialog .content .via li:last-child {
+  border-bottom: 0px;
+}
+
+.pay-dialog .via li span {
+  padding-left: 12px;
+  font-weight: 400;
+  font-size: 11px;
+  color: rgb(20, 23, 26);
+  line-height: 1.3125;
+}
+
+.pay-dialog .cancel-btn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-top-color: rgb(230, 236, 240);
+}
+
+.pay-dialog .cancel-btn span {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: rgb(101, 119, 134);
+}
+
+.show {
+  height: 50%;
+  transform: translateY(0%);
+  display: flex;
+}
+
+.hide {
+  transform: translateY(100%);
+  display: block;
+}
+.home h2 {
+  margin: 0px;
+  font-size: 45px;
+}
+
+.home .status {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .status > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 80%;
+}
+
+.home .topup {
+  cursor: pointer;
+  display: flex;
+  padding: 3px 1px;
+  background: rgba(0, 0, 0, 0.09);
+  border-radius: 12px;
+}
+
+.home .topup span {
+  line-height: 30px;
+  margin: 2px 12px;
+  /* margin-bottom: 4px; */
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.home .balance {
+  margin: 0px 15px;
+}
+
+.home .activity {
+  width: 85%;
+  /* background: rgba(0, 0, 0, 0.09); */
+  padding: 3px 7.5%;
+  box-shadow: 0 -3px 8px -4px rgba(0, 0, 0, 0.15);
+  height: inherit;
+}
+
+.home .activity hr {
+  margin: 13px auto;
+  border-top: 2px solid #fff;
+  width: 5%;
+  border-radius: 5px;
+}
+
+.home .activity .list {
+  width: 100%;
+  height: 80%;
+}
+
+.home .list:empty::after {
+  content: "No activities yet :)";
+}
+
+.home .activity h4 {
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0px 0 15px 0;
+  font-weight: 400;
+}
+
+.home .activity h6 {
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.home .activity li {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.home .activity span {
+  font-size: 12px;
+  font-weight: 200;
+}
+.goals .list:empty::after {
+  content: "Start a Goal :)";
+}
+
+.goals .list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  width: 94%;
+  margin: auto;
+}
+
+.goals .list > a {
+  width: 46%;
+  margin: 2%;
+  height: 160px;
+}
+
+.goals .list .wide {
+  width: 100%;
+  height: 180px;
+}
+
+.goals .item {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  animation: item 25s infinite ease-in-out;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.goals .add {
+  border-radius: 3px;
+  animation: goalsgallery 15s infinite ease-in-out;
+  overflow: hidden;
+}
+
+.goals .add .cover {
+  background: rgba(255, 171, 186, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.goals .add span {
+  font-size: 42px;
+  border-radius: 10px;
+}
+
+/* .goals a:last-child .item {
+  margin-bottom: 84px;
+} */
+
+@keyframes item {
+  0% {
+    background-position: center;
+  }
+  25% {
+    background-position: top;
+  }
+  50% {
+    background-position: right;
+  }
+  75% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+.goals .item .cover {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: center;
+  background: linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.5));
+}
+
+.goals .cover .desc {
+  margin: 8px 0;
+  width: 92%;
+  text-align: center;
+  color: #fff;
+  text-align: left;
+}
+
+.goals .cover .desc div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goals .item h5 {
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.goals .cover .desc span {
+  width: 100%;
+  height: 2px;
+  background: hsla(0, 0%, 100%, 0.4);
+  display: block;
+}
+
+.goals .cover hr {
+  border-top: 2px solid #fff;
+  width: 30%;
+  margin: 10px 0;
+}
+
+.goal {
+  width: 200%;
+  height: 100%;
+  display: flex;
+  /* animation: bgColorAnimateSlider 15s infinite ease-in-out; */
+  transition: 1s;
+}
+
+.addGoal .exit,
+.startGoal .exit {
+  position: absolute;
+  left: 15px;
+}
+
+.goal > div {
+  width: 50%;
+}
+.goal a {
+  color: white;
+}
+
+.goal .header {
+  width: 90%;
+  padding: 17px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.goal .header a,
+.goal .header .exit {
+  color: #fff;
+}
+
+.goal .title {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  align-items: center;
+  margin: 10px;
+  position: relative;
+}
+
+.goal .title li {
+  position: relative;
+}
+
+.goal .title li .right {
+  right: 15px;
+  top: 0px;
+}
+
+.goal .title li .left {
+  left: 8px;
+  top: 0;
+  height: 3vw;
+  width: 3vw;
+}
+
+.goal h6 {
+  margin: 0px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.goal .bg {
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.goal .desc span {
+  width: 100%;
+  background: hsla(0, 0%, 100%, 0.4);
+  display: block;
+}
+
+.goal .cover {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6),
+    transparent,
+    rgba(0, 0, 0, 0.6)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goal .bg .cover section {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.goal div > section {
+  width: 90%;
+}
+
+.goal button {
+  color: white;
+  width: 100%;
+  border: 0px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.goal .saved {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.saved h4 {
+  margin: 0px;
+}
+
+.goal .desc {
+  width: 100%;
+  text-align: right;
+}
+
+.goal h3 {
+  font-size: 17px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.goal hr {
+  border-top: 2px solid #fff;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.goal .topup {
+  cursor: pointer;
+  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.goal #topup h5 {
+  margin: 40px 0px 0px 0px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  margin: 35px 0px;
+}
+
+.amount .btn {
+  position: relative;
+}
+
+.amount .name {
+  padding-right: 15px;
+}
+
+.btn .arrow {
+  bottom: 0px;
+  right: 0px;
+}
+
+.goal #topup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goal .list:empty::after {
+  content: "For all dreams started small & stayed consistent :)";
+}
+
+.goal #topup input {
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+}
+
+.goal #topup button {
+  color: #fff;
+  cursor: pointer;
+  background: black;
+  border: 0px;
+  margin: 0px;
+}
+
+.startGoal {
+  animation: goalsgallery 15s infinite ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.addGoal {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.startGoal h6 {
+  font-size: 17px;
+}
+
+.startGoal div,
+.startGoal form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: 1s;
+  margin: 0px;
+}
+
+.startGoal form:focus-within {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.startGoal .cover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.startGoal div input {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.startGoal button,
+.addGoal button {
+  border: 0px;
+  background: black;
+  color: white;
+  margin: 0px;
+}
+
+.startGoal button {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.addGoal img {
+  width: 100%;
+}
+
+.addGoal .picture {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: 50%;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.addGoal .picture .exit {
+  position: absolute;
+  color: white;
+  top: 0px;
+}
+
+.addGoal .picture img {
+  width: 100%;
+}
+
+.addGoal .picture .file {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid;
+}
+
+.addGoal form {
+  width: 90%;
+  margin: 40px auto;
+}
+
+@keyframes goalsgallery {
+  0% {
+    background: url("https://hitriva.com/public/images/h6.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+  50% {
+    background: url("https://hitriva.com/public/images/y.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+  100% {
+    background: url("https://hitriva.com/public/images/h6.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+}
+.authpass > div {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.authpass form {
+  margin: 50px 0px;
+}
+
+.authpass input {
+  text-align: center;
+}
+
+.authpass button {
+  width: 100%;
+}
+.processing {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.profile .header {
+  width: 100%;
+  height: 30%;
+}
+
+.profile img,
+.profile canvas {
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+}
+
+.profile .header canvas {
+  border-radius: 50%;
+}
+
+.profile .header .desc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile .header h5 {
+  margin: 15px 23px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.profile .submenu {
+  width: 85%;
+  height: 70%;
+  margin: auto;
+}
+
+.profile .submenu div {
+  width: 100%;
+  padding: 22px 0px;
+  margin: 0;
+}
+
+.profile .submenu div li {
+  margin-bottom: 6px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.profile .submenu div span {
+  font-size: 11px;
+}
+
+.profile .submenu a:last-child div {
+  padding-bottom: 30px;
+  border-bottom: 0px;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.page .header {
+  margin: 0px auto;
+  /* padding: 15px 0 0 0; */
+}
+
+.page .link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page .plus {
+  font-size: 24px;
+}
+
+.page .list:empty {
+  height: 75%;
+}
+
+.page .header h5 {
+  margin: 15px 0px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.page .header h6 {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  margin: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.page .headermenu {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+}
+
+.page .headermenu li {
+  margin: 15px 0 0 0;
+  width: 33.33%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.page hr {
+  margin: 10px 0px 0px 0;
+  width: 100%;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+/* 
+.page .active hr {
+  border-top: 2px solid #090909;
+} */
+
+.page .list {
+  margin: 10px auto;
+}
+
+.page .list span {
+  font-size: 12px;
+}
+
+.page form,
+.page > div {
+  width: 90%;
+  font-size: 13px;
+  margin: 50px auto;
+}
+
+.page label {
+  width: 100%;
+}
+
+.page input,
+.page select {
+  width: 100%;
+}
+
+/* 
+========================================
+ACTIVITY
+========================================
+*/
+
+.activity .list:empty::after {
+  content: "No activities yet :)";
+}
+
+.activity .list .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  width: 100%;
+  border-bottom: 0px;
+}
+
+.activity .item li {
+  margin: 7px 0px;
+  font-size: 13px;
+}
+
+/* 
+========================================
+PAYMENTS
+========================================
+*/
+
+.paymentMethods .list:empty::after {
+  content: "Add your payment method ( card, momo or bank details ). All payment details are encrypted & secured :)";
+}
+
+.paymentMethods .list .item {
+  margin: 0;
+  letter-spacing: 1px;
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paymentMethods .item li {
+  margin: 7px 0px;
+  font-size: 14px;
+}
+
+.paymentMethod li {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin: 0px;
+  font-size: 14px;
+  align-items: center;
+  letter-spacing: 0.5px;
+}
+
+.paymentMethod li span {
+  font-size: 14px;
+  align-items: center;
+}
+
+.paymentMethod button {
+  margin: 20px 0px;
+}
+
+/* 
+========================================
+PERSONA INFO
+========================================
+*/
+
+.personalInfo .file {
+  width: 100%;
+}
+
+.personalInfo img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+/* 
+=======================================
+PAYMENT METHODS
+=======================================
+*/
+
+.paymentMethods form {
+  margin-top: 10px;
+}
+
+/* 
+======================================
+THEME
+======================================
+*/
+
+.page.style .list {
+  margin: 50px auto;
+}
+
+.page.style .list div {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.style li {
+  letter-spacing: 1px;
+}
+
+/* 
+==================================
+INVITE
+==================================
+*/
+
+.invite .or {
+  margin: 30px 20px;
+  display: block;
+}
+
+.invite .share {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.invite .share p {
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.invite form {
+  margin: 0px;
+}
+.welcome {
+  color: #fff;
+  background: linear-gradient(-45deg, #7a181c, #662a53, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: animate 15s ease infinite;
+  -moz-animation: animate 15s ease infinite;
+  animation: animate 15s ease infinite;
+  transition: 1s;
+  height: 100%;
+  width: 300%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  transition: 1s;
+}
+
+.welcome .logo {
+  position: fixed;
+  top: 20px;
+  width: 50px;
+  left: 20px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  width: 0.1em;
+  height: 0.1em;
+}
+
+.welcome h5,
+.welcome p {
+  letter-spacing: 1px;
+}
+
+.welcome p {
+  font-size: 13px;
+}
+
+.welcome > div {
+  width: 33.33%;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.welcome div > div {
+  width: 85%;
+  margin: auto;
+}
+
+.welcome .file {
+  border: 2px solid;
+  padding: 13px 26px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.welcome #picture {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.welcome .swipe {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 20px 50px;
+  color: white;
+}
+.loading {
+  height: 100%;
+  width: 100%;
+}
+
+.loading ::after,
+.loading ::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Loader 1 */
+.loader-1 {
+  height: 62px;
+  width: 62px;
+  -webkit-animation: loader-1-1 4.8s linear infinite;
+  animation: loader-1-1 4.8s linear infinite;
+}
+@-webkit-keyframes loader-1-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes loader-1-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loader-1 span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 62px;
+  width: 62px;
+  clip: rect(0, 62px, 62px, 32px);
+  -webkit-animation: loader-1-2 1.2s linear infinite;
+  animation: loader-1-2 1.2s linear infinite;
+}
+@-webkit-keyframes loader-1-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(220deg);
+  }
+}
+@keyframes loader-1-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(220deg);
+  }
+}
+.loader-1 span::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 62px;
+  width: 62px;
+  clip: rect(0, 62px, 62px, 32px);
+  border: 3px solid;
+  border-radius: 50%;
+  -webkit-animation: loader-1-3 1.2s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  animation: loader-1-3 1.2s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+@-webkit-keyframes loader-1-3 {
+  0% {
+    -webkit-transform: rotate(-140deg);
+  }
+  50% {
+    -webkit-transform: rotate(-160deg);
+  }
+  100% {
+    -webkit-transform: rotate(140deg);
+  }
+}
+@keyframes loader-1-3 {
+  0% {
+    transform: rotate(-140deg);
+  }
+  50% {
+    transform: rotate(-160deg);
+  }
+  100% {
+    transform: rotate(140deg);
+  }
+}
+
+/* Layout */
+.center {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+body,
+html,
+#root,
+#root > div,
+.theme > div {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+/*
+===============================================
+GRID
+===============================================
+*/
+.grid {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+}
+
+.grid > div {
+  width: 100%;
+  height: 93%;
+  overflow: scroll;
+}
+
+/*
+===============================================
+ALERT
+===============================================
+*/
+
+.alert {
+  position: absolute;
+  right: 0px;
+  background: #009688;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  color: white;
+  animation: alert 5s both ease-in-out;
+  z-index: 50;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.alert .closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 21px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+@keyframes alert {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* 
+=====================================
+  ANIMATION
+=====================================
+*/
+
+.bgColorAnimate {
+  color: #fff;
+  animation: animate 16s infinite ease-in-out;
+  transition: 1s;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 
+=============================
+ICONS
+=============================
+*/
+
+.backWhite {
+  background-image: url(https://s3.eu-west-2.amazonaws.com/triva/assets/icons/outline_arrow_back_white_18.png);
+  display: block;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 4vw;
+  width: 4vw;
+  border-style: solid;
+  /* border-color: #fff; */
+  border-width: 0 1px 1px 0;
+  transform: rotate(45deg);
+  transition: border-width 0.15s ease-in-out;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20%;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.exit {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 7px;
+  display: inline-block;
+}
+
+/* 
+============================
+FILE UPLOADER
+============================
+*/
+
+.file {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  margin: 45px 0;
+  display: inline-block;
+  color: white;
+}
+
+.file [type="file"] {
+  cursor: inherit;
+  display: block;
+  font-size: 999px;
+  filter: alpha(opacity=0);
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+  z-index: 2;
+}
+
+/* 
+================================
+THEME
+================================
+*/
+
+.theme.animate,
+.theme.animate .goal,
+.theme.animate .authpass,
+.theme.animate .processing {
+  /* color: #fff; */
+  /* animation: animate 16s infinite ease-in-out; */
+  /* transition: 1s; */
+  color: #fff;
+  background: linear-gradient(-45deg, #dc4a52, #b83b52, #9d2e52, #731d52);
+  background-size: 400% 400%;
+  -webkit-animation: animate 15s ease infinite;
+  -moz-animation: animate 15s ease infinite;
+  animation: animate 15s ease infinite;
+}
+.theme.animate .processing,
+.theme.animate .authpass {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.theme.animate {
+  color: white;
+}
+
+.theme .active hr {
+  border-top: 2px solid #000;
+}
+
+.theme.animate .active hr {
+  border-top: 2px solid #ffff;
+}
+
+.theme h5,
+.theme label,
+.theme a,
+.theme .exit,
+.theme .topup span {
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.theme.animate h5,
+.theme.animate label,
+.theme.animate a,
+.theme.animate .exit,
+.theme.animate .active hr,
+.theme.animate .topup span {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.theme .active span {
+  background: #000;
+}
+
+.theme.animate .active span {
+  background: #fff;
+}
+
+.theme .home .activity hr {
+  border-top: 2px solid #000;
+}
+
+.theme.animate .home .activity hr {
+  border-top: 2px solid #fff;
+}
+
+.theme.animate .active span {
+  background: #fff;
+}
+
+.theme.animate form input,
+.theme.animate form select {
+  transition: 1s;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.theme.animate input:focus,
+.theme.animate select:focus {
+  border-bottom: 2px solid white;
+}
+
+.theme form input,
+.theme form select {
+  transition: 1s;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.theme input:focus,
+.theme select:focus {
+  transition: 1s;
+  border-bottom: 2px solid black;
+}
+
+.theme.animate input::placeholder,
+.theme.animate .loader-1 span::after {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.theme.animate option {
+  color: black;
+}
+
+.theme input::placeholder,
+.theme .loader-1 span::after {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+}
+
+.theme .item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.theme.animate a .item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.theme .content .item.last {
+  border-bottom: 0px;
+}
+
+.theme .content p,
+.theme .content .title,
+.theme .content .userlink {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.theme.animate .content p,
+.theme.animate .content .title,
+.theme.animate .content .userlink {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.theme .content .share {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.theme.animate .content .share {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+button {
+  border: 0;
+  margin: 0px;
+  border: 1px solid;
+  text-transform: capitalize;
+}
+
+.theme button {
+  /* color: #000; */
+  border: 0px;
+  background: #000;
+  color: #fff;
+}
+.theme.animate button {
+  color: #fff;
+  border: 0px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+form label {
+  margin-bottom: 20px;
+}
+/* 
+================================
+EMPTY
+================================
+*/
+
+.list:empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.list:empty::after {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* 
+===============================
+TITLE
+===============================
+*/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0px 15px 0px;
+}
+
+.header h2 {
+  font-size: 33px;
+  margin: 0px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  /* font-family: "Open Sans", sans-serif; */
+}
+
+.header .icon {
+  font-size: 40px;
+  margin: 0px;
+  margin-top: 13px;
+}
+.header .add {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.header li {
+  margin: 0px;
+  padding: 0px 20px;
+  letter-spacing: 1px;
+  font-size: 19px;
+}
+
+/* 
+===================================
+OVERLAY
+===================================
+*/
+
+.overlay {
+  position: absolute;
+  bottom: 0px;
+  background: white;
+  z-index: 1;
+  width: 100%;
+  transition: 0.2s;
+  overflow: hidden;
+  box-shadow: 0px -5px 8px -6px rgba(0, 0, 0, 0.15);
+}
+
+.overlay {
+  height: 0%;
+}
+
+.overlay .header {
+  justify-content: flex-end;
+  margin: 20px auto;
+  width: 100%;
+  padding: 0px;
+}
+
+.dialog {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0px -5px 16px -7px rgba(0, 0, 0, 0.15);
+}
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  letter-spacing: -0.1rem;
+}
+h2 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -0.1rem;
+}
+h3 {
+  font-size: 3rem;
+  line-height: 1.3;
+  letter-spacing: -0.1rem;
+}
+h4 {
+  font-size: 2.4rem;
+  line-height: 1.35;
+  letter-spacing: -0.08rem;
+}
+h5 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: -0.05rem;
+}
+h6 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 4.2rem;
+  }
+  h3 {
+    font-size: 3.6rem;
+  }
+  h4 {
+    font-size: 3rem;
+  }
+  h5 {
+    font-size: 2.4rem;
+  }
+  h6 {
+    font-size: 1.5rem;
+  }
+}
+
+p {
+  margin-top: 0;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1eaedb;
+  text-decoration: none;
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.button:hover,
+button:hover,
+.button:focus,
+button:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: transparent;
+  border: 0px;
+  box-shadow: none;
+  box-sizing: border-box;
+  border-bottom: 2px solid #d1d1d1;
+  width: 100%;
+}
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 0px;
+  border-bottom: 2px solid;
+  outline: 0;
+}
+label,
+legend {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+fieldset {
+  padding: 0;
+  border-width: 0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+}
+label > .label-body {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-weight: normal;
+}
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: circle inside;
+}
+ol {
+  list-style: decimal inside;
+}
+ol,
+ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%;
+}
+li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #f1f1f1;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+}
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre;
+}
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e1e1e1;
+}
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem;
+}
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem;
+}
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem;
+}
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}
+.menu {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  box-shadow: 0px -5px 8px -6px rgba(0, 0, 0, 0.15);
+  /* animation: bgColorAnimateSlider 15s infinite ease-in-out; */
+  transition: 1s;
+  background: transparent;
+  align-items: center;
+  height: 8%;
+}
+
+.menu > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* padding: 10px 0px; */
+}
+
+.menu svg {
+  width: 23px;
+  pointer-events: none;
+}
