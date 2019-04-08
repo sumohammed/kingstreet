@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--
+      Basic Page Needs
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
     <meta charset="utf-8" />
-    <title>Triva</title>
+    <title>King's Street</title>
     <meta name="description" content="Personalize your financial experience" />
     <meta name="keywords" content="Save, Invest, Budget, Pay, Personalize" />
     <meta name="author" content="Suleiman Mohammed" />
@@ -17,18 +21,27 @@
       content="Personalize your financial experience."
     />
 
+    <!--
+      Mobile Specific Metas
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <!--
+      WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323
+    -->
     <meta
       name="viewport"
-      content="initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"
     />
 
     <link rel="manifest" href="/manifest.json" />
 
+    <!-- Add to Homescreen elements for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="Triva" />
     <link rel="apple-touch-icon" href="public/images/icons/icon-152x152.png" />
-
+    <!-- Tile Icon for Windows -->
     <meta
       name="msapplication-TileImage"
       content="public/images/icons/icon-144x144.png"
@@ -41,48 +54,77 @@
       sizes="16x16"
     />
 
-    <link
+    <!--
+      FONT
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,600"
+      rel="stylesheet"
+    /> -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+      rel="stylesheet"
+    /> -->
+
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,400"
+      rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./public/css/styles.css" />
+    <link
+      href="https://s3.eu-west-2.amazonaws.com/triva/fonts/font.css"
+      rel="stylesheet"
+    />
 
-    <noscript>This website requires Javascript to render correctly.</noscript>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    /> -->
 
-    <script>
-      if (typeof Promise === "undefined") {
-        const promiseTag = document.createElement("script");
-        promiseTag.src =
-          "https://cdn.jsdelivr.net/npm/bluebird@3.5.3/js/browser/bluebird.min.js";
-        document.head.appendChild(promiseTag);
-      }
-      if (typeof fetch === "undefined") {
-        const fetchTag = document.createElement("script");
-        fetchTag.src =
-          "https://cdn.jsdelivr.net/npm/whatwg-fetch@3.0.0/dist/fetch.umd.min.js";
-        document.head.appendChild(fetchTag);
-      }
-    </script>
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400"
+      rel="stylesheet"
+    />-->
+
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600"
+      rel="stylesheet"
+    /> -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
+      rel="stylesheet"
+    />
+
+    <!--
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+    <link
+      href="./public/stylesheets/app.css?c77f7dd97510d2915ff3"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div id="root"></div>
-
-    <script>
-      import("./public/javascript/module/index.js");
-      window.supportsDynamicImport = true;
-    </script>
-    <script>
-      if (!window.supportsDynamicImport) {
-        const systemJsLoaderTag = document.createElement("script");
-        systemJsLoaderTag.src =
-          "https://unpkg.com/systemjs@2.0.0/dist/s.min.js";
-        systemJsLoaderTag.addEventListener("load", function() {
-          System.import("./public/javascript/nomodule/index.js");
-        });
-        document.head.appendChild(systemJsLoaderTag);
-      }
-    </script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <script
+      type="text/javascript"
+      src="./public/javascript/app.44ba0dd06f5eaaaf1e36.js?c77f7dd97510d2915ff3"
+    ></script>
   </body>
 </html>
